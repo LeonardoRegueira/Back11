@@ -1,10 +1,12 @@
+//--------------------------------------
 console.clear(); // Limpieza de terminal
+//--------------------------------------
 
 //Recibe Parámetro - NO Retorna valor
-function saludar (nom){
+function saludar (nom){ //Invocación de función <-----------------------
     console.log('Hola bienvenido al sito sin retorno', nom)
 }
-saludar("Leonardo")
+saludar("Leonardo")// Ejecución de función <----------------------------
 
 //Recibe Parámetro - Retorna valor
 function saludarConRetorno (nom){
@@ -26,3 +28,4 @@ function saludarSinParamRet(){
 console.log(saludarSinParamRet())
 console.log(saludarSinParamRet)
 
+//
