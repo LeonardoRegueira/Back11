@@ -13,8 +13,6 @@ function saludarConRetorno (nom){
 let retornoSaludar = saludarConRetorno("Gabriela")
 console.log(retornoSaludar)
 
-
-
 //No recibe Parámetro - NO Retorna valor
 function saludarSinParametro (){
     console.log('Hola bienvenido al sito sin Parámetro y valor')
