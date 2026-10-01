@@ -14,9 +14,9 @@ author: LGR<br>
 license: (ISC) (enter)<br>
 type: (commonjs) (enter)<br>
 
-muestra: About to write to /Users/leomacpro/Desktop/Escritorio/Back11/package.json:
-
-{....} confirmamos con YES
+muestra: <br>
+About to write to /Users/..../package.json:<br>
+{....} confirmamos con YES<br>
 
 • npm init -y: Inicializa el proyecto con los valores predeterminados sin preguntar.
 
