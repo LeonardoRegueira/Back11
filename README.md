@@ -1,17 +1,17 @@
-Inicialización y Configuración
+Inicialización y Configuración 
 • npm init: Crea el archivo package.json interactivo para iniciar un nuevo proyecto.
 
-A completar...
-package name: (back11) (lo deje que se llame back)
-version: (1.0.0) (enter)
-description: MiPaquetito
-entry point: (index.js) (enter)
-test command: (enter)
-git repository: (https://github.com/LeonardoRegueira/Back11.git) (enter)
-keywords: Mi Paquetito de gestion 3000 pro
-author: LGR
-license: (ISC) (enter)
-type: (commonjs) (enter)
+A completar...<br>
+package name: (back11) (lo deje que se llame back)<br>
+version: (1.0.0) (enter)<br>
+description: MiPaquetito<br>
+entry point: (index.js) (enter)<br>
+test command: (enter)<br>
+git repository: (https://github.com/LeonardoRegueira/Back11.git) (enter)<br>
+keywords: Mi Paquetito de gestion 3000 pro<br>
+author: LGR<br>
+license: (ISC) (enter)<br>
+type: (commonjs) (enter)<br>
 
 muestra: About to write to /Users/leomacpro/Desktop/Escritorio/Back11/package.json:
 
