@@ -32,25 +32,19 @@ muestra: About to write to /Users/leomacpro/Desktop/Escritorio/Back11/package.js
 • npm list: Muestra la lista de paquetes instalados en el directorio actual.<br>
 
 *********************************************************************************************
-Ejemplos
+<h2>Ejemplos</h2>
 
-Dentro del paquete JSON agrego en "scripts" que permite ejecutar el archivo .js
-  "start": "node index.js", 
-
-para ejecutar escribo
-"npm start"
-*********************************************************************************************
-Instalación de paquete express 
+<h3>Instalación de paquete express </h3>
 
 npm i express o npm install express
 
 *********************************************************************************************
-Desinstalación de paquete express
+<h3>Desinstalación de paquete express</h3>
 
 npm uninstall express
 
 *********************************************************************************************
-Instalacion de paquete colors
+<h3>Instalacion de paquete colors</h3>
 
 npm i colors
 
@@ -63,3 +57,9 @@ para eliminar la dependencia...
 npm uninstall colors
 
 *********************************************************************************************
+
+Dentro del paquete JSON agrego en "scripts" que permite ejecutar el archivo .js
+  "start": "node index.js", 
+
+para ejecutar escribo
+"npm start"
