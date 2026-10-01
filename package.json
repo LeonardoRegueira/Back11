@@ -1,0 +1,33 @@
+{
+  "name": "back11",
+  "version": "1.0.0",
+  "description": "MiPaquetito",
+  "keywords": [
+    "Paquetito",
+    "gestion",
+    "pro3000"
+  ],
+  "homepage": "https://github.com/LeonardoRegueira/Back11#readme",
+  "bugs": {
+    "url": "https://github.com/LeonardoRegueira/Back11/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoRegueira/Back11.git"
+  },
+  "license": "ISC",
+  "author": "LGR",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "comentario": "esto es un agregado para que al inicializar se ejecute el archivo .js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
