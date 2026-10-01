@@ -20,25 +20,24 @@ muestra: About to write to /Users/leomacpro/Desktop/Escritorio/Back11/package.js
 • npm init -y: Inicializa el proyecto con los valores predeterminados sin preguntar.
 
 Instalación de Paquetes
-• npm install (o npm i): Instala todas las dependencias listadas en el package.json.
-• npm install <paquete>: Instala un paquete de forma local en el proyecto.
-• npm install <paquete> -D (o --save-dev): Instala un paquete como dependencia de desarrollo.
-• npm install <paquete> -g: Instala un paquete de forma global en el sistema.
+• npm install (o npm i): Instala todas las dependencias listadas en el package.json.<br>
+• npm install <paquete>: Instala un paquete de forma local en el proyecto.<br>
+• npm install <paquete> -D (o --save-dev): Instala un paquete como dependencia de desarrollo.<br>
+• npm install <paquete> -g: Instala un paquete de forma global en el sistema.<br>
 
 Gestión de Paquetes
-• npm uninstall <paquete>: Elimina un paquete del proyecto.
-• npm update: Actualiza todos los paquetes instalados a sus versiones permitidas.
-• npm list: Muestra la lista de paquetes instalados en el directorio actual.
+• npm uninstall <paquete>: Elimina un paquete del proyecto.<br>
+• npm update: Actualiza todos los paquetes instalados a sus versiones permitidas.<br>
+• npm list: Muestra la lista de paquetes instalados en el directorio actual.<br>
 
 ----------------------------------------------------------------------------------------------
-
 Ejemplos
 
 Dentro del paquete JSON agrego en "scripts" que permite ejecutar el archivo .js
   "start": "node index.js", 
 
 para ejecutar escribo
-npm start
+"npm start"
 ----------------------------------------------------------------------------------------------
 Instalación de paquete express
 
