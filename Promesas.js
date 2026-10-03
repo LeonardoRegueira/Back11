@@ -28,7 +28,7 @@ const miPromesaCompra = new Promise((resolve, reject) => {// resolve y reject ti
             console.log("Mi funcion ejecutor cuando no hay crema - REJECT")
             reject('No hay crema')
         }
-    }, 4000)
+    }, 2000)
 })
 
 
