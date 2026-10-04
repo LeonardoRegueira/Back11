@@ -18,10 +18,10 @@
   "license": "ISC",
   "author": "LGR",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "modulo_index.js",
   "scripts": {
     "comentario": "esto es un agregado para que al inicializar se ejecute el archivo .js",
-    "start": "node index.js",
+    "start": "node modulo_index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
