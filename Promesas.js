@@ -16,7 +16,7 @@ const miPromesaCompra = new Promise(funcionEjecutor)
 */
 
 //Declaracion de como se va a comportar la promesa
-let hayCrema = true
+let hayCrema = false
 
 const miPromesaCompra = new Promise((resolve, reject) => {// resolve y reject tienen que ser funciones
     setTimeout(() => {
@@ -35,13 +35,13 @@ const miPromesaCompra = new Promise((resolve, reject) => {// resolve y reject ti
 //pase a la promesa el resolve y reject
 miPromesaCompra
     .then( //es la propiedad que le pasa el resolve
-        valor => { // funcion que le vamos a pasar al resolve
-            console.log("Promesa cumplida -- el valor recibido es: ", valor)
+        response => { // funcion que le vamos a pasar al resolve
+            console.log("Promesa cumplida -- el valor recibido es: ", response)
         }
     )
     .catch(//es la propiedad que le pasa el reject
-        valor => { // funcion que le vamos a pasar al resolve
-            console.log("Promesa Rechazada -- el valor recibido es: ", valor)
+        error => { // funcion que le vamos a pasar al resolve
+            console.log("Promesa Rechazada -- el valor recibido es: ", error)
         }
     )
     .finally( //se esta ejecutando siempre aunque sea resolve o reject
