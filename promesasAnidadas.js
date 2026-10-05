@@ -30,7 +30,7 @@ function imprimirFactura (ventaRealizada){
 
     return new Promise((resolve, reject) => {
         if(ventaRealizada){
-            reject("Imprimendo factura...")
+            resolve("Imprimendo factura...")
         }
         else{
             reject("No se puede imprimir la factura -- No hay venta realizada")
