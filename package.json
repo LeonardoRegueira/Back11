@@ -1,0 +1,27 @@
+{
+  "name": "back11",
+  "version": "1.0.0",
+  "description": "<h1> Paso 1</h1> <p>crar el paquete JSON</p> <p>npm init -y</p>",
+  "main": "destructuring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoRegueira/Back11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LeonardoRegueira/Back11/issues"
+  },
+  "homepage": "https://github.com/LeonardoRegueira/Back11#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

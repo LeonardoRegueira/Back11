@@ -4,7 +4,8 @@ const express = require('express')
 const fs = require('node:fs')
 
 //leemos el contenido con el filesistem
-const HOME = fs.readFileSync('./wiews/home.html')
+const HOME = fs.readFileSync('./views/HOME.html')
+const API = fs.readFileSync('./views/API.html')
 
 //usar constante con la direccion y puerto
 const HOSTNAME = '127.0.0.1';
@@ -18,14 +19,23 @@ const app = express()
 //el res , es el response, es el objeto de respuesta
 app.get('/', (req, res) => {
     console.log("Entrando a la raiz de la API"); //cuando entro en el sitio muestra el mensaje con la terminal
-    res.status(200).send("<h1>Esta es la ruta principal del servidor<h1>");
+
+    //imformo el tpo de contenido
+    res.setHeader('Content-Type','text/html')
+    
+    //si sale todo bien...
+    res.status(200).send(HOME);
 })
 
 //crear un rutting para poder ir a otra ruta
 app.get('/api', (req, res) => {
     console.log("Entrando a la raiz de api");
-    res.status(200).send("<h2>Esta es la ruta /api</h2>");
+
+    res.setHeader('Content-Type','text/html')
+    
+    res.status(200).send(API);
 })
+
 
 //método que escucha
 //primero paso como argumento el puerto, luego la direccion y como tercero una callback

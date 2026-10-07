@@ -12,7 +12,7 @@
 
 <h1> Paso 4</h1>
 <p>Exportamos express</p>
-<p>npm init -y</p>
+<p>const express = require('express')</p>
 
 <h1>Para ejecutar</h1> 
 <p>npx nodemon index.js</p>
