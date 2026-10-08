@@ -16,3 +16,12 @@
 
 <h1>Para ejecutar</h1> 
 <p>npx nodemon index.js</p>
+
+<h1>Importar datos de un archivo.js</h1>
+<p>en el archivo con la información exporto</p>
+<p>module.exports.infoLenguajes = infoLenguajes </p>
+
+<p>en el archivo con la información importo</p>
+<p>const lenguaje =require('./src/lenguajes').infoLenguajes </p>
+<br>
+<p>const lenguaje =require('./src/lenguajes').infoLenguajes.backend </p>
